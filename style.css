@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+  }
+
+.containerTitle {
+    background-color: var(--blue);
+    color: var(--page-background);
+    font-family: "Open Sans", sans-serif;
+    height: 305px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20 0px;
+}
+
+.title {
+    text-align: center;
+}
+
+.containerTitle h1 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.containerTitle p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.containerContent {
+    background-color: var(--page-background);
+    font-family: "Open Sans", sans-serif;
+    height: 305px;
+}
+
+.containerCards {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    position: absolute;
+    top: 150px;
+    left: 160px
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 325px;
+}
+
+.flat {
+    color: #1E2338;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25 30px;
+}
+
+.value {
+    
+    border-bottom: 1px solid var(--gray);
+    margin: 0 25px;
+}
+
+.value p {
+    color: var(--gray);
+}
+
+.value strong {
+    color: #1E2338;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.descriptionProduct {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10 0 20 0px;
+
+}
+
+.containerCards ul {
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.containerCards ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 20px;
+
+    color: #828799;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+button {
+    color: var(--blue);
+    background-color: #fff;
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+    width: 266px;
+    padding: 12 24px;
+    margin: 60 30 30 30px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+#default .flat {
+    background-color: var(--yellow);
+    height: 70px;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 5px;
+    color: var(--blue);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25 20 30 30px;
+}
+
+#default .flat :nth-child(2) {
+    background-color: var(--blue);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding: 6 24px;
+    border-radius: 40px;
+    width: 94px;
+    height: 32px;
+}
+
+#default button {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+#default button:hover {
+    background-color: var(--page-background);
+    color: var(--blue);
+    transition: 0.10s;
+    
+}
+
